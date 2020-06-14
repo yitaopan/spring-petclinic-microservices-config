@@ -63,7 +63,7 @@ spring:
 
 ---
 spring:
-  profiles: keyvault
+  profiles: key-vault
 
 MYSQL_SERVER_FULL_NAME: ${MYSQL-SERVER-FULL-NAME}
 MYSQL_DATABASE_NAME: ${MYSQL-DATABASE-NAME}
