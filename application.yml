@@ -24,6 +24,8 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: none
+  jmx:
+    enabled: true
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
@@ -53,10 +55,6 @@ management:
     export:
       prometheus:
         enabled: true
-
-spring:
-  jmx:
-    enabled: true
 
 ---
 spring:
