@@ -50,6 +50,10 @@ management:
       prometheus:
         enabled: true
 
+spring:
+  jmx:
+    enabled: true
+
 ---
 spring:
   profiles: mysql
