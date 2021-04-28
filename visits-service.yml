@@ -1,2 +1,7 @@
 ﻿spring:
   profiles: default
+eureka:
+  instance:
+    # enable to register multiple app instances with a random server port
+    # comment out as this configuration conflicts with Azure Spring Cloud
+    # instance-id: ${spring.application.name}:${random.uuid}
